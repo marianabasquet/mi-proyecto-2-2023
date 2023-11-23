@@ -72,4 +72,60 @@ ul li{
     text-decoration: underline dashed 2px #550101;
     background-color: #d6f2a4;
   }
+  #logoInicio{
+     background-image: url("/img/Recurso\ 7.png");
+     padding: 2px 0 0 24px;
+     background-size: 22px;
+     background-repeat: no-repeat;
+  }
+  #cuerpoImagen{
+    flex: 40%;
+  }
+  #cuerpoDatos{
+    flex: 60%;
+  }
+  #bordeImagen{
+    background-color: #d46b68;
+    padding: 25px;
+    text-align: center;
+    width: 70%;
+    border-radius: 25px;
 
+  }
+  img{
+    border-radius: 25px;
+  }
+  h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+  #detalleDatos{
+    width: 70%;
+    padding: 20px;
+  }
+  #Botones{
+    display: flex;
+    margin-top: 20px;
+  }
+  #Botonesfavorito{
+    flex: 50%;
+  }
+  #BotonesUbicacion{
+    flex: 50%;
+  }
+  #marcoFavorito{
+    background-color: #CCCCCC;
+    width: 250px;
+    background-image: url(../img/Recurso\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 20px 0px 20px 55px;
+    background-position: left 30px center ;
+    border-radius: 10px ;
+  }
+#marcoFavorito:hover{
+  opacity: 78%;
+  cursor: pointer;
+}
